@@ -1,0 +1,6 @@
+name: GroupedWorldChat
+version: 1.0
+main: ro.fr33styler.gwc.GroupedWorldChat
+api-version: 1.13
+author: Fr33styler
+softdepend: [Multiverse-Core, WorldLoader, MultiWorld, PlaceholderAPI]

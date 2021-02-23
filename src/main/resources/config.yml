@@ -1,0 +1,8 @@
+Groups:
+  Survival:
+    Name: '&6Survival'
+    Format: '&7[%gwc_group_name%&7] %player% > %message%'
+    Worlds:
+      - world
+      - world_nether
+      - world_the_end
