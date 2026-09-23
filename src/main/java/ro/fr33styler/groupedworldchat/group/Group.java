@@ -1,5 +1,7 @@
 package ro.fr33styler.groupedworldchat.group;
 
+import org.bukkit.ChatColor;
+
 public class Group {
 
     private final String id;
@@ -8,8 +10,8 @@ public class Group {
 
     public Group(String id, String name, String format) {
         this.id = id;
-        this.name = name.replace('&', '§');
-        this.format = format.replace('&', '§').replace("%player%", "%1$s").replace("%message%", "%2$s");
+        this.name = ChatColor.translateAlternateColorCodes('&', name);
+        this.format = ChatColor.translateAlternateColorCodes('&', format).replace("%player%", "%1$s").replace("%message%", "%2$s");
     }
 
     public String getID() {
